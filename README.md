@@ -11,4 +11,5 @@ Here, you will find all the notes and resources needed to follow along with the 
 2. [ES6 and javaScript](tutorials/ES6_JavaScript.md)
 3. [JavaScript Libraries](tutorials/JavaScript_libraries.md)
 4. [JavaScript Variables](tutorials/JavaScript_variables.md)
+5. [JavaScript Datatypes](tutorials/datatypes.md)
 
