@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Demonstrating block scope with let
+        let a = 10;
+        {
+            let a = 20;
+            console.log(a); // 20
+        }
+        console.log(a); // 10
+
+        // Demonstrating block scope with var
+        var b = 10;
+        {
+            var b = 30;
+            console.log(b); // 30
+        }
+        console.log(b); // 30
+    </script>
+</body>
+</html>
