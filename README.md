@@ -9,6 +9,7 @@ This course is designed with the beginner in mind, providing a clear and straigh
 
 Here, you will find all the notes and resources needed to follow along with the lessons. My goal is to make your learning  journey as smooth and enjoyable as possible. 
 
+0. [How to download tutorials](tutorials/downloading_tutorials.md) ✓
 1. [What is JavaScript](tutorials/what_is_JavaScript.md) ✓
 2. [ES6 and javaScript](tutorials/ES6_JavaScript.md) ✓
 3. [JavaScript Libraries](tutorials/JavaScript_libraries.md) ✓
