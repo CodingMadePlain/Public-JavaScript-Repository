@@ -1,6 +1,5 @@
 # ES6 and JavaScript
-ES6 (ECMAScript 2015) revolutionized JavaScript by introducing features that make the language more
-powerful and readable. Key changes include:
+ES6 (ECMAScript 2015) revolutionized JavaScript by introducing features that make the language more powerful and readable. Key changes include:
 
 - let and const for block-scoped variables, 
 - arrow functions for a more concise syntax, and 
