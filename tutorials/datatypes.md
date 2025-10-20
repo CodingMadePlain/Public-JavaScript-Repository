@@ -61,22 +61,11 @@ const bigInt = BigInt(9007199254740991);
 - **Passed by value**: When assigned or passed to functions, a copy is made
 - **Stored in stack memory**: Direct storage for faster access
 
-## Checking Data Types with typeof()
+## Checking Data Types with typeof() Operator
 
 ```javascript
 let yourName = "John Peters";
 console.log(typeof(yourName))
-```
-
-Use the `typeof` operator:
-```javascript
-console.log(typeof "hello");     // "string"
-console.log(typeof 42);          // "number"
-console.log(typeof true);        // "boolean"
-console.log(typeof undefined);   // "undefined"
-console.log(typeof null);        // "object" (this is a known quirk!)
-console.log(typeof Symbol());    // "symbol"
-console.log(typeof 123n);        // "bigint"
 ```
 
 Everything else in JavaScript (arrays, objects, functions) are **non-primitive** or **reference types**.
