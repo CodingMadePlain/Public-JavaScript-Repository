@@ -16,5 +16,5 @@ Here, you will find all the notes and resources needed to follow along with the 
 1. [JavaScript Variables](tutorials/JavaScript_variables.md) ✓
 1. [Variable Scope and hoisting](tutorials/scope_hoist_variables.md) ✓
 1. [Datatypes and Typeof()](tutorials/datatypes.md) ✓
-
+1. [BOM - Browser Object Model](tutorials/JavaScript_BOM.md)
 
