@@ -1,4 +1,6 @@
-# Differences between `var` and `let`
+# Scope and Hoisting
+- Scope determines where a variable can be accessed in your code.
+- Hoisting is JavaScript's behavior of moving declarations to the top of their scope before code execution.  
 
 ## 1. Scope
 This is the most critical difference.
