@@ -39,31 +39,23 @@ Before you can manipulate elements, you need to select them. JavaScript provides
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Understanding the Document Object Model (DOM)</title>
+    <title>Sample 2 - DOM Element Access</title>
 </head>
 <body>
-    <h1>Welcome to the JavaScript Tutorial</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In asperiores explicabo, animi ab nobis cumque voluptas sequi! Ipsam temporibus, ea veritatis quod excepturi similique odit, dicta sapiente dolorum rem hic.</p>
+    <form>
+ 
+<p id="hd"> Content is <b>here</b> and notice tags </p>
 
-    <p id="takeme">This is the second paragraph on the page. It has the id "takeme". Notice that the <strong>strong element</strong> in this paragraph.</p>
+<strong></strong>
+<footer></footer>
 <script>
-
-// display the URL of the current document
-console.log(document.URL);
-// display content of title element in console log
-console.log(document.title);
-// change the background color of the body element
-document.body.style.backgroundColor = "lightblue";
-// display content of h1 element in console log
-let heading = document.querySelector('h1').textContent;
-console.log(heading);
-//display content of paragraph with id "takeme" in console log
-let para = document.getElementById('takeme').textContent;
-console.log(para);
-// use the property innerHTML to get content of paragraph with id "takeme"
-let paraHTML = document.getElementById('takeme').innerHTML;
-console.log(paraHTML);
+    const MYTEXT = document.getElementById("hd").innerText;
+    let someText = document.getElementById("hd").textContent;
+    someText = document.getElementById("hd").innerHTML;
+    document.querySelector("strong").innerHTML = someText;
+    console.log(someText)
 </script>
+
 </body>
 </html>
 ```
@@ -72,6 +64,7 @@ console.log(paraHTML);
 Create an HTML page with your name inside a h1 element.  
 Display your name in the console log.
 
+<!--stopped here. Update with JavaScript_2025 DOM>
 ## Writing elements to the page
 
 ```html

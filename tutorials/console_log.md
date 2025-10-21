@@ -1,1 +1,0 @@
-# Browser Console log and browser dev tools

@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Write Content of h1 element to the div tag</title>
-    <style>
-        #box {
-            border: 1px solid #000;
-            padding: 10px;
-            margin-top: 10px;
-            width: 200px;
-            height: 200px;
-        }
-    </style>
+    <title>Sample 2 - DOM Element Access</title>
 </head>
 <body>
-<button></button>
-    <script>
-          const allButtons = document.querySelectorAll('button');
-    </script>
+    <form>
+ 
+<p id="hd"> Content is <b>here</b> and notice tags </p>
+
+<strong></strong>
+<footer></footer>
+<script>
+    const MYTEXT = document.getElementById("hd").innerText;
+    let someText = document.getElementById("hd").textContent;
+    someText = document.getElementById("hd").innerHTML;
+    document.querySelector("strong").innerHTML = someText;
+    console.log(someText)
+</script>
+
 </body>
 </html>

@@ -6,22 +6,25 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>variable Hoisting</h1>
+    <p>Variable hoisting is a JavaScript mechanism where variables are moved to the top of their containing scope during the compile phase.</p>
     <script>
-        // Demonstrating block scope with let
-        let a = 10;
-        {
-            let a = 20;
-            console.log(a); // 20
-        }
-        console.log(a); // 10
+function scopeTest() {
+  var varVariable = 'I am a var';
+  let letVariable = 'I am a let';
 
-        // Demonstrating block scope with var
-        var b = 10;
-        {
-            var b = 30;
-            console.log(b); // 30
-        }
-        console.log(b); // 30
+  if (true) {
+    var varVariable = 'I am a var, redeclared'; // This overwrites the original varVariable
+    let letVariable = 'I am a let, redeclared'; // This is a NEW variable, only for this block
+    console.log('Inside block:', varVariable); // 'I am a var, redeclared'
+    console.log('Inside block:', letVariable); // 'I am a let, redeclared'
+  }
+
+  console.log('Outside block:', varVariable); // 'I am a var, redeclared' (The change leaked out!)
+  console.log('Outside block:', letVariable); // 'I am a let' (The original remains untouched)
+}
+
+scopeTest();
     </script>
 </body>
 </html>
