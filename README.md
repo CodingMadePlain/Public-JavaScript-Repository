@@ -14,9 +14,16 @@ Here, you will find all the notes and resources needed to follow along with the 
 1. [ES6 and javaScript](tutorials/ES6_JavaScript.md) ✓
 1. [JavaScript Libraries](tutorials/JavaScript_libraries.md) ✓
 1. [JavaScript Variables](tutorials/JavaScript_variables.md) ✓
+1. [Ternary Operator]
+1. [Template Literals](tutorials/template_literals.md)
 1. [Variable Scope and hoisting](tutorials/scope_hoist_variables.md) ✓
 1. [Datatypes and Typeof()](tutorials/datatypes.md) ✓
 1. [Casting](tutorials/casting.md)
 1. [DOM - Document Object Model](tutorials/JavaScript_DOM.md)
 1. [BOM - Browser Object Model](tutorials/JavaScript_BOM.md)
+1. [JavaScript Control Structure](tutorials/control_structure.md)  
+    - conditionals (if else, switch)
+    - Loops (for, while, for--of,)
+    - Error Handling (try catch, finally)
+1. [Functions]
 
