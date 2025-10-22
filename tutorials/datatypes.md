@@ -68,5 +68,17 @@ let yourName = "John Peters";
 console.log(typeof(yourName))
 ```
 
+```javascript
+// variables, values, statements, declaring a variable
+// initializing a variable, varaiable datatype, console.log, typeof()
+<html>
+   <script>
+        let this_course = "learning to programme with JavaScript";
+        console.log(this_course);
+        console.log(typeof(this_course));
+   </script>
+</html>
+```
+
 Everything else in JavaScript (arrays, objects, functions) are **non-primitive** or **reference types**.
 
