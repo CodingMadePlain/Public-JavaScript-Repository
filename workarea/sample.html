@@ -7,22 +7,13 @@
 </head>
 <body>
     <h1>Thank you <span id="nameDisplay"></span></h1>
-   <form action="#">
-       <label for="name">Name:</label>
-       <input type="text" id="name" name="name">
-       <input type="submit" value="Submit">
-   </form>
-    <script>
-         const form = document.querySelector('form');
-         const nameInput = document.getElementById('name');
-         const nameDisplay = document.getElementById('nameDisplay');
-    
-         form.addEventListener('submit', function(event) {
-              event.preventDefault(); // Prevent form submission
-              const name = nameInput.value;
-              nameDisplay.textContent = name; // Update the h1 element
-              console.log(name); // Log the name to the console
-         });
-    </script>
+<script>
+// 1. DECLARE the function (writing the recipe)
+function sayHello() {
+  console.log("Hello, world!");
+}
+// call the function
+sayHello();
+</script>
 </body>
 </html>

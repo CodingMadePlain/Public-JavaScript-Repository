@@ -6,18 +6,22 @@
     <title>Sample 2 - DOM Element Access</title>
 </head>
 <body>
-    <form>
+    
  
-<p id="hd"> Content is <b>here</b> and notice tags </p>
+
 
 <strong></strong>
-<footer></footer>
+<button id="call">Call function</button>
 <script>
-    const MYTEXT = document.getElementById("hd").innerText;
-    let someText = document.getElementById("hd").textContent;
-    someText = document.getElementById("hd").innerHTML;
-    document.querySelector("strong").innerHTML = someText;
-    console.log(someText)
+  // 1. DECLARE the function (writing the recipe)
+function sayHello() {
+  console.log("Hello, world!");
+  // Access and modify the <strong> element
+  document.querySelector("strong").innerHTML = "Hello, world!";
+}
+// call the function with an event listener
+document.getElementById("call").addEventListener("click", sayHello);
+
 </script>
 
 </body>
