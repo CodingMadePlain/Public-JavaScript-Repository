@@ -9,8 +9,8 @@ This course is designed with the beginner in mind, providing a clear and straigh
 
 Here, you will find all the notes and resources needed to follow along with the lessons. My goal is to make your learning  journey as smooth and enjoyable as possible. 
 
+1. [VS Code setup & extensions](tutorials/vscode_setup.md) ✓
 1. [How to download tutorials](tutorials/downloading_tutorials.md) ✓
-1. [Console Log in VS Code](tutorials/EdgeToolsVSCode.md) ✓
 1. [What is JavaScript](tutorials/what_is_JavaScript.md) ✓
 1. [ES6 and javaScript](tutorials/ES6_JavaScript.md) ✓
 1. [JavaScript Libraries](tutorials/JavaScript_libraries.md) ✓
