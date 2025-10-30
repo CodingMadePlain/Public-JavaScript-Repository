@@ -64,6 +64,38 @@ Before you can manipulate elements, you need to select them. JavaScript provides
 Create an HTML page with your name inside a h1 element.  
 Display your name in the console log.
 
+## DOM - Methods and Properties (Continued)
+
+### DOM methoods
+- getElementById()
+- querySelector()
+- getAttribute()
+- setAttribute()
+
+### DOM Properties
+- innerText
+- textContent
+- innerHTML
+
+### getAttribute example
+
+```html
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Get Attribute Example</title>
+  
+  <body>
+     <img src="../images/girl-face2.jpg" id="Ind" alt="sample image">
+  </body>
+  <script>
+const myAttribute = document.getElementById("Ind").getAttribute("src");
+console.log(myAttribute) // returns images/girl-face2.jpg
+</script>
+  </html>
+```
+
 <!--stopped here. Update with JavaScript_2025 DOM>
 ## Writing elements to the page
 

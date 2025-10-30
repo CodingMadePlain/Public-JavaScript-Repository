@@ -27,4 +27,5 @@ Here, you will find all the notes and resources needed to follow along with the 
     - Loops (for, while, for--of,)
     - Error Handling (try catch, finally)
 1. [Functions](tutorials/functions.md) - tidy this up
+1. [More JavaScript DOM]()
 
