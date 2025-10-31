@@ -22,10 +22,12 @@ Here, you will find all the notes and resources needed to follow along with the 
 1. [Casting](tutorials/casting.md)
 1. [DOM - Document Object Model](tutorials/JavaScript_DOM.md)
 1. [BOM - Browser Object Model](tutorials/JavaScript_BOM.md)
+1. [Arrays]
 1. [JavaScript Control Structure](tutorials/control_structure.md)  
     - conditionals (if else, switch)
     - Loops (for, while, for--of,)
     - Error Handling (try catch, finally)
 1. [Functions](tutorials/functions.md) - tidy this up
+1. [Array and Object deconstructing](tutorials/array-object-deconstructing.md)
 1. [More JavaScript DOM]()
 
