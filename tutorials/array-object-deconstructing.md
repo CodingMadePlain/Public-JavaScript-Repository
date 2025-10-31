@@ -1,4 +1,4 @@
-# b: **Array Destructuring** and **Object Destructuring**. 
+# Array Destructuring and Object Destructuring
 They both provide a concise way to extract values from arrays or properties from objects into distinct variables.
 
 ---
