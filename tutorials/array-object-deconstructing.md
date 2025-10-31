@@ -114,6 +114,3 @@ console.log(userEmail);  // Output: "learner@example.com"
 
 Both array and object destructuring are modern JavaScript features (introduced in ES6/ES2015) that help write more concise and readable code, especially when dealing with data structures.
 
-Here's a visual summary of both concepts:
-
-`
