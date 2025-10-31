@@ -1,5 +1,12 @@
 # JavaScript Libraries
+
+**TL;DR:**
+
 A JavaScript library is a collection of pre-written JavaScript code that you can use to perform common tasks more easily. Instead of writing everything from scratch, you can use these ready-made functions and tools to save time and effort.
+
+**Examples** of JavaScript libraries are Express.js, React, chart.js
+
+----
 
 ## Common JavaScript Libraries
 

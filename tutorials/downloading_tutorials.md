@@ -5,13 +5,13 @@
 1. Download with same file name (capital O )
 
 ```bash
-curl -O https://github.com/CodingMadePlain/Public-JavaScript-Repository/blob/main/tutorials/what_is_JavaScript.md
+curl -O https://raw.githubusercontent.com/CodingMadePlain/Public-JavaScript-Repository/refs/heads/main/tutorials/JavaScript_DOM.md
 ```
 
 2. Download with a specified name (Lower case o)
 
 ```bash
-curl -o lesson1.md https://github.com/CodingMadePlain/Public-JavaScript-Repository/blob/main/tutorials/what_is_JavaScript.md
+curl -o lesson1.md https://raw.githubusercontent.com/CodingMadePlain/Public-JavaScript-Repository/refs/heads/main/tutorials/what_is_JavaScript.md
 ```
 
 3. For Large files

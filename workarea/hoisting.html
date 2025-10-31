@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Scope and Hoisting</h1>
+    <ul>
+        <li>Scope determines where a variable can be accessed in your code.</li>
+        <li>Hoisting is JavaScript's behavior of moving declarations to the top of their scope before code execution.</li>
+    </ul>
+    <script>
+        // Example of hoisting in var
+        console.log(hoistedVar); // undefined
+        var hoistedVar = 5;
+        console.log(hoistedVar); // 5
+    </script>
+
+    <script>
+        // Example of hoisting in let
+        console.log(hoistedLet); // ReferenceError: Cannot access 'hoistedLet' before initialization
+        let hoistedLet = 10;
+        console.log(hoistedLet); // 10
+    </script>
+
+    <script>
+        // Example scope in var
+        function varScope() {
+            if (true) {
+                var scopedVar = 'I am scoped to the function';
+            }
+            console.log(scopedVar); // 'I am scoped to the function'
+        }
+       varScope();
+    </script>
+
+    <script>
+        // Example scope in let
+        function letScope() {
+            if (true) {
+                let scopedLet = 'I am scoped to the block';
+                console.log(scopedLet); // 'I am scoped to the block'
+            }
+            console.log(scopedLet); // ReferenceError: scopedLet is not defined
+        }
+        letScope();
+    </script>
+</body>
+</html>

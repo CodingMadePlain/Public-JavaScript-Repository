@@ -18,3 +18,16 @@
 3. Live server (Ritwick Dey)
     - View page in a live server
     - essential for localStorage (JavaScript)
+
+## File Structure
+
+```
+Public-JavaScript-Repository/
+├── .gemini/
+├── .github/
+├── images/
+├── tutorials/
+├── workarea/
+├── AGENTS.md
+└── README.md
+```
