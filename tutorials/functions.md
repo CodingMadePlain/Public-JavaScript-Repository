@@ -196,3 +196,91 @@ This code does the *exact same thing* as the anonymous function in Lesson 3, but
 
 **Mini-Challenge:**
 Go back to the code from Lesson 2. Can you rewrite the `displayGreeting` function and its event listener to use an arrow function instead?
+
+``` html
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Set Attribute Click Example</title>
+        <style>
+            /* Just a little CSS to make it obvious the image is clickable */
+            img {
+                cursor: pointer; /* Changes the mouse pointer to a hand when hovering over the image */
+                border: 2px solid lightgray; /* Adds a subtle border */
+                transition: border-color 0.3s ease; /* Smooth transition for border color change */
+            }
+            img:hover {
+                border-color: dodgerblue; /* Changes border color on hover */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Our image element. It starts with one image. -->
+        <img src="https://via.placeholder.com/150/0000FF/FFFFFF?text=Click+Me" id="mySwappingImage" alt="A blue placeholder image. Click to change.">
+
+        <script>
+            // --- JavaScript for Image Swapping ---
+
+            // 1. Get a reference to our image element
+            //    We use document.getElementById() to find the HTML element with the ID "mySwappingImage".
+            //    We store this element in a constant variable called 'imageElement' so we can easily refer to it later.
+            const imageElement = document.getElementById("mySwappingImage");
+
+            // 2. Create an array of image sources
+            //    An array is like a list. Here, it holds the paths to different images.
+            //    We'll cycle through these images each time the user clicks.
+            //    Using placeholder.com for example images that are easy to see change.
+            const imageSources = [
+                "https://via.placeholder.com/150/0000FF/FFFFFF?text=Image+One",  // Blue image
+                "https://via.placeholder.com/150/FF0000/FFFFFF?text=Image+Two",  // Red image
+                "https://via.placeholder.com/150/00FF00/FFFFFF?text=Image+Three" // Green image
+            ];
+
+            // 3. Keep track of which image is currently displayed
+            //    This variable will store the index (position) of the current image in our 'imageSources' array.
+            //    We start at 0, because arrays are "zero-indexed" (the first item is at position 0).
+            let currentImageIndex = 0;
+
+            // 4. Define our function to swap the image
+            //    A function is a block of code designed to perform a particular task.
+            //    We name it 'swapImage' to describe what it does.
+            function swapImage() {
+                // First, increment our index.
+                // This moves us to the next image in the 'imageSources' array.
+                currentImageIndex++;
+
+                // What if we've gone past the last image?
+                // The '%' (modulo) operator helps us loop back to the beginning.
+                // If currentImageIndex is 3 and imageSources.length is 3, then 3 % 3 = 0.
+                // This effectively resets currentImageIndex to 0 if it goes beyond the last item.
+                currentImageIndex = currentImageIndex % imageSources.length;
+
+                // Now, get the new image source from our array using the updated index.
+                const newSrc = imageSources[currentImageIndex];
+
+                // 5. Use setAttribute() to change the image's 'src'
+                //    'setAttribute()' is a method that allows us to change the value of an HTML attribute.
+                //    It takes two arguments: the name of the attribute ("src") and the new value (newSrc).
+                imageElement.setAttribute("src", newSrc);
+
+                // 6. Optionally, update the 'alt' attribute too for accessibility
+                //    It's good practice to update the 'alt' text to describe the new image.
+                //    This helps users who can't see the image (e.g., using screen readers).
+                imageElement.setAttribute("alt", `A placeholder image showing Image ${currentImageIndex + 1}.`);
+
+                // We can also log to the console to see what's happening behind the scenes.
+                console.log(`Image swapped to: ${newSrc}`);
+            }
+
+            // 7. Add an event listener to the image
+            //    An event listener "listens" for a specific event to happen on an HTML element.
+            //    Here, we're listening for a "click" event on our 'imageElement'.
+            //    When the image is clicked, our 'swapImage' function will automatically run.
+            imageElement.addEventListener("click", swapImage);
+
+            // That's it! Now, every time you click the image, it will swap to the next one in the list.
+        </script>
+    </body>
+</html>
+```
