@@ -96,6 +96,35 @@ console.log(myAttribute) // returns images/girl-face2.jpg
   </html>
 ```
 
+### setAttribute() example
+
+```html
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Set Attribute Example</title>
+    </head>
+    <body>
+        <img src="../images/girl-face2.jpg" id="Ind" alt="sample image">
+    </body>
+    <script>
+        // Get the image element
+        const myImage = document.getElementById("Ind");
+
+        // Set a new 'src' attribute
+        myImage.setAttribute("src", "../images/boy-face2.jpg"); 
+
+        // You can also set other attributes, for example, the 'alt' attribute
+        myImage.setAttribute("alt", "a beautiful new image");
+
+        // To verify, you can get the attribute again
+        const newSrc = myImage.getAttribute("src");
+        console.log(newSrc); // returns ../images/boy-face2.jpg
+    </script>
+</html>
+```
+
 <!--stopped here. Update with JavaScript_2025 DOM>
 ## Writing elements to the page
 
