@@ -5,7 +5,7 @@ In JavaScript, functions are blocks of code designed to perform a particular tas
 Here is how you can write the same piece of logic using three different function styles in modern JavaScript. The goal is to check if we have an office in a user's country and return a personalized message.
 
 ```javascript
-const officeCountries = ['United Kingdom', 'USA', 'South Africa', 'Nigeria'];
+const officeCountries = ['United Kingdom', 'USA', 'South Africa', 'Japan];
 ```
 
 ### 1. Named Function
