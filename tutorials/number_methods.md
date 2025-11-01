@@ -1,6 +1,11 @@
 # JavaScript Number Methods
 
+# What are they
+
 Number methods are built-in functions in JavaScript that help you perform common operations on numbers. They are primarily used for formatting, converting, or checking the type and integrity of numerical values.
+
+
+# When to use them
 
 You can use them when you need to format a number for display (like currency), convert a string into a number, or check if a value is a valid, finite number before performing a calculation.
 
