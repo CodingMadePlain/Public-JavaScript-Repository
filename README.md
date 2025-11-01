@@ -27,6 +27,7 @@ Here, you will find all the notes and resources needed to follow along with the 
     - [conditionals (if else, switch)](tutorials/conditionals.md)
     - [Loops (for, while, for--of,)](tutorials/loops.md)
     - [Error Handling (try catch, finally)](tutorials/errorhandling.md)
+1. [Named and Arrow functions](tutorials/arrow_functions_intro.md)
 1. [Functions](tutorials/functions.md) - tidy this up
 1. [Array and Object deconstructing](tutorials/array-object-deconstructing.md)
 1. [More JavaScript DOM]()
