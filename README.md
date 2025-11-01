@@ -23,6 +23,7 @@ Here, you will find all the notes and resources needed to follow along with the 
 1. [DOM - Document Object Model](tutorials/JavaScript_DOM.md)
 1. [BOM - Browser Object Model](tutorials/JavaScript_BOM.md)
 1. [Arrays](tutorials/array_intro.md)
+1. [String Methods](tutorials/string_methods)
 1. [JavaScript Control Structure](tutorials/control_structure.md)  
     - [conditionals (if else, switch)](tutorials/conditionals.md)
     - [Loops (for, while, for--of,)](tutorials/loops.md)
