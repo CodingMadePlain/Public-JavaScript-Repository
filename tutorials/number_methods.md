@@ -54,6 +54,21 @@ let isInvalid = Number.isNaN(result);
 console.log(isInvalid); // Output: true
 ```
 
+### More Examples
+```javascript
+        // Example 1: using parseFloat()
+        let str = "3.14"; // a string containing a number
+        let num = parseFloat(str); // convert the string into a number
+        console.log(num); // output: 3.14
+        console.log(typeof num); // output: "number"
+
+        // Example 2: using parseInt()
+        let str2 = "3.14`"
+        let num2 = parseInt(str2); // convert the string into an integer
+        console.log(num2); // output: 3
+        console.log(typeof num); // output: "number"
+```
+
 ---
 
 ### Common Number Methods
